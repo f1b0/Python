@@ -13,8 +13,8 @@ ______________
   + OSX
   + Linux (to do)
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```bash
+osascript -e 'tell app "Terminal"
+    do script "ssh _HOST_ -l _USERNAME_"
+end tell'
 ```
