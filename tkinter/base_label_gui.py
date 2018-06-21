@@ -1,4 +1,5 @@
-#!/Users/f1b0/anaconda3/bin/python3.6
+#!/usr/bin/env python3.6
+# -*- encoding: utf-8; py-indent-offset: 2 -*-
 
 
 # import tkinter as tk #
