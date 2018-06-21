@@ -1,4 +1,10 @@
-# Python - Modules
+# Python
 
-Here are some reuseable python modules written in v3.6.
+Collection of pyton modules and applications.
 
+
+module list:
+  - tkinter skeleton
+  - csv reader
+  - xml reader
+  - stringer (a string toy)
