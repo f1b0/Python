@@ -22,15 +22,14 @@ Supported operating system:
 Linux support can be done by editing both shell scripts.
 
 ```bash
+
 # from:
 osascript -e 'tell app "Terminal"
     do script "ssh _HOST_ -l _USERNAME_"
 end tell'
 
 # Linux example
-```bash
 xfce4-terminal -c "ls -la" --hold
-```
 
 ```
 
