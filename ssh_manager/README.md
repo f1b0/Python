@@ -3,12 +3,19 @@
 
 ______________
 
+This tool is still under development.
+
 
 Functionalities:
 
 
   + read csv files as host list
   + opens a new terminal window which asks for login
+  
+  To Do:
+    - Password Management
+    - SSH Key Manager
+    - Host availability test funtionalities
 
 
 ______________
