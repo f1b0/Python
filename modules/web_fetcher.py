@@ -1,3 +1,5 @@
+#!/Users/f1b0/anaconda3/bin/python3.6
+
 import re
 from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
@@ -52,14 +54,20 @@ class WebFetcher(object):
         check = check_dupplicates(not_quotes)
         return check
 
+    def get_input_fields(self):
+        input_field = self.driver.find_elements_by_tag_name('input')
+        # if input_field[0].get_attribute('type') is 'text':
+        print(input_field[0].get_attribute('type'))
+
 
 if __name__ == "__main__":
-    site = 'WEB_PAGE'
+    site = 'https://github.com/f1b0/Python/tree/master/modules'
     b = WebFetcher()
     page_source = b.get_page(site)
-    link_list = b.get_links(page_source)
+    # link_list = b.get_links(page_source)
+    b.get_input_fields()
 
-    for link in link_list:
-        print(link)
+    # for link in link_list:
+    #    print(link)
 
     b.quit_browser()
